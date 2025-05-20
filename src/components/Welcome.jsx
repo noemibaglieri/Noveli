@@ -2,14 +2,14 @@ import { Alert } from "react-bootstrap";
 
 const Welcome = () => {
   return (
-    <Alert variant="info">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
+    <Alert variant="info" className="mt-4 mb-4">
+      <Alert.Heading>Welcome to our bookshop!</Alert.Heading>
       <p>
-        Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an
-        alert works with this kind of content.
+        So glad to see you here! You've just stepped into a world of stories, adventures, and knowledge. This little message is just the beginning of your
+        journey through shelves full of wonders.
       </p>
       <hr />
-      <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+      <p className="mb-0">Remember: every book is a new universe. Happy exploring!</p>
     </Alert>
   );
 };

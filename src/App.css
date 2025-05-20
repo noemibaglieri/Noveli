@@ -10,6 +10,16 @@ ul li {
   color: #00617a;
 }
 
+.book-card {
+  height: 100%;
+}
+
+.book-card img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;

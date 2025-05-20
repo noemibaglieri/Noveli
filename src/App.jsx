@@ -2,6 +2,7 @@ import "./App.css";
 import NoveliNav from "./components/NoveliNav";
 import NoveliFooter from "./components/NoveliFooter";
 import Welcome from "./components/Welcome";
+import AllTheBooks from "./components/AllTheBooks";
 import { Container } from "react-bootstrap";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NoveliNav />
       <Container>
         <Welcome />
+        <AllTheBooks />
       </Container>
       <NoveliFooter />
     </>
