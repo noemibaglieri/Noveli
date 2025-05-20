@@ -4,6 +4,8 @@ import NoveliFooter from "./components/NoveliFooter";
 import Welcome from "./components/Welcome";
 import AllTheBooks from "./components/AllTheBooks";
 import { Container } from "react-bootstrap";
+import BookList from "./components/BookList";
+// import fantasy from "./data/fantasy.json";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <NoveliNav />
       <Container>
         <Welcome />
-        <AllTheBooks />
+        {/* <AllTheBooks /> */}
+        <BookList />
       </Container>
       <NoveliFooter />
     </>

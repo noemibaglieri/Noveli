@@ -29,3 +29,7 @@ a:hover {
   text-decoration: underline wavy #00617a;
   text-underline-offset: 4px;
 }
+
+.selected-card {
+  outline: 2px solid #00617a;
+}

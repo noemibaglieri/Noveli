@@ -4,7 +4,7 @@ import fantasy from "../data/fantasy.json";
 const AllTheBooks = () => {
   return (
     <>
-      <Row md={4} className="gy-3">
+      <Row md={4} className="gy-3 gx-3 mb-4">
         {fantasy.map((book) => {
           return (
             <Col key={book.asin}>
