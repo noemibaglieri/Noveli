@@ -1,0 +1,21 @@
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.noveli-primary {
+  color: #00617a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline wavy #00617a;
+  text-underline-offset: 4px;
+}
